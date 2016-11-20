@@ -1,0 +1,116 @@
+/*****************************************************
+ * Magic Mirror                                      *
+ * Custom CSS                                        *
+ *                                                   *
+ * By Michael Teeuw http://michaelteeuw.nl           *
+ * MIT Licensed.                                     *
+ *                                                   *
+ * Add any custom CSS below.                         *
+ * Changes to this files will be ignored by GIT. *
+ *****************************************************/
+
+ body {
+ 	margin: 40px;
+	background-image: url("gplaypattern.png");
+	background-repeat: repeat;
+	background-size: 300px;
+	padding-bottom: 0px;
+	width: 1200px;
+	font-weight: 300;
+	
+ }
+ 
+ .region.top.left {
+	width: 800px
+}
+ .region.top.right {
+	width: 350px
+} 
+ div.region.bottom.bar {
+	top: 510px;
+	height : 150px;
+	overflow: hidden;
+ }
+ div.region.top.center {
+*	height: 100px;
+	overflow: hidden;
+	left: 568px;
+}
+.name.normal.medium {
+	width: 375px;
+	text-align: right;
+}
+
+div#module_3_sonos.module.sonos {
+	margin-top: 0px;
+}
+
+.calendar, div#module_2_MMM-WunderGround table.small {
+	background-color: rgba(63, 182, 236, 0.23);
+    border-radius: 10px;
+	padding: 10px;
+	box-shadow: 5px 5px 5px 1px #d3d3d3;
+	
+}
+div#module_2_MMM-WunderGround div.large.light {
+	margin-bottom: 27px;
+}
+div#module_3_sonos {
+	margin-top: 20px;
+}
+
+.calendar .title, .hourv, .weatherforecast .weather-icon, .bright, .calendar .time, .weatherforecast .day, .currentweather .weathericon, .MMM-WunderGround .day, .MMM-WunderGround .max-temp , .MMM-WunderGround .min-temp, .MMM-WunderGround .forecastText, .MMM-WunderGround .hour , .MMM-WunderGround .pop, .MMM-WunderGround .mm {
+ 	color: #262626;
+}
+
+.xsmall, td.forecastText {
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.small {
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.medium {
+  font-size: 35px;
+  line-height: 40px;
+}
+
+.large {
+  font-size: 65px;
+  line-height: 65px;
+}
+
+.xlarge {
+  font-size: 75px;
+  line-height: 75px;
+  letter-spacing: -3px;
+}
+
+.sonos ul .art img {
+  height: 80px;
+}
+
+.sonos ul .name {
+  font-size: 25px;
+  line-height: 22px;
+}
+td.title.bright {
+	width: 400px;
+}
+div#module_4_calendar {
+	margin-top: 9px;
+}
+div#module_2_MMM-WunderGround div.large.light {
+	margin-bottom:8px;
+}
+
+td.forecastText {
+	text-align: justify;
+}
+div#module_3_sonos.module.sonos img {
+	border-radius: 10px;
+}
+
